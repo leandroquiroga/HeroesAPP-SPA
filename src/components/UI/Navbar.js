@@ -1,12 +1,20 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link, NavLink,  useNavigate } from 'react-router-dom';
+import { AuthContext } from './../../auth/autoContext';
+import { types } from './../../types/type';
 
 export const NavbarScreen = () => {
 
   const navigate = useNavigate();
-
+  const { user, dispatch } = useContext(AuthContext)
   // retorna a inicio de sesion
+
   const handleLoguot = () => {
+    const action = {
+      type: types.logout,
+    };
+  
+    dispatch(action);
     navigate('/login', {
       replace: true
     })
@@ -47,7 +55,7 @@ export const NavbarScreen = () => {
       <ul className='navbar-nav ml-auto'>
 
         <span className='nav-item nav-link text-white'>
-          Hola, Leandro !
+          Hola, {user.name} !
         </span>
 
         <button
