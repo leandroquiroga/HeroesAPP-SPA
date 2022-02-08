@@ -4,6 +4,7 @@ import { PriveteRouter } from './PriveteRouter';
 import { PublicRouter } from './PublicRouter';
 import { LoginScreen } from './../components/Login/LoginScreen';
 import { DashboardRoute } from './DashboardRoute';
+import { RegisterScreen } from '../components/Register/RegisterScreen';
 
 export const AppRouter = () => {
   return (
@@ -16,6 +17,11 @@ export const AppRouter = () => {
           </PublicRouter>
         } />
         
+        <Route path='/register' element={ 
+          <PublicRouter>
+            <RegisterScreen />
+          </PublicRouter>
+        } />
 
         <Route path="/*" element={
           <PriveteRouter>
