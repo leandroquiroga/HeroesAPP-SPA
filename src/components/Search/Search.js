@@ -28,8 +28,8 @@ export const SearchScreen = () => {
     if (searchHeroe === '') { 
       setError(true);
       setTimeout(() => {
-        setError(false)
-      }, 2500)
+        setError(false);
+      }, 2500);
       
       return;
     }
