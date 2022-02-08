@@ -11,7 +11,7 @@ export const RegisterScreen = () => {
     passwordConfirm: '',
   });
   const { emailUser, password, passwordConfirm } = state;
-  const { dispatch, singUp, currentUser } = useContext(AuthContext);
+  const { dispatch, singUp } = useContext(AuthContext);
   const navigate = useNavigate();
   const [error, setError] = useState('')
 
@@ -29,11 +29,9 @@ export const RegisterScreen = () => {
       return
     }
 
-    console.log(emailUser);
-
     // Registra un usuario, si los datos son correctos,
     // lo redirije a la pagina principal de la App
-    registerUser(singUp, dispatch, navigate, setError, state, currentUser)
+    registerUser(singUp, dispatch, navigate, setError, state)
   }
 
   const imagePath = `/assets/svg/avatar.svg`
