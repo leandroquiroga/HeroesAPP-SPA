@@ -34,25 +34,18 @@ export const RegisterScreen = () => {
     registerUser(singUp, dispatch, navigate, setError, state)
   }
 
-  const imagePath = `/assets/svg/avatar.svg`
   return (
-    <div className='container mt-3 '>
-      <div className='d-flex justify-content-center align-items-center p-3  '>
+    <div className='container-background'>
+      <div className='d-flex justify-content-center align-items-center p-3 text-white'>
         <div
-          className='shadow-lg p-3 mb-5 bg-body rounded '
+          className='shadow-lg p-3 mb-5 container-blur rounded '
           style={{ width: 370 + 'px'}}
         >
           <h1 className='text-center fs-3'>Registrate</h1>
           <hr />
-          <div className='d-flex justify-content-center align-items-center p-1'>
-            <img 
-              className='img-fluid w-25'
-              src={imagePath}
-              alt='icon'
-            />
-          </div>
+
           <form
-            className='form-control  border-0'
+            className='form-control border-0 bg-transparent text-white'
             onSubmit={handleRegister}
           >
             <div className='mb-2 '>
@@ -64,7 +57,7 @@ export const RegisterScreen = () => {
               </label>
               <input 
                 autoFocus
-                className='form-control border-0 border-bottom'
+                className='form-control border-0 border-bottom bg-transparent text-white'
                 type='email'
                 id='emailUser'
                 placeholder='Ingrese e-mail'
@@ -82,7 +75,7 @@ export const RegisterScreen = () => {
                 Contraseña: 
               </label>
               <input 
-                className='form-control border-0 border-bottom'
+                className='form-control border-0 border-bottom bg-transparent text-white'
                 type='password'
                 id='passUser'
                 placeholder='Ingrese contraseña'
@@ -99,7 +92,7 @@ export const RegisterScreen = () => {
                 Repite contraseña: 
               </label>
               <input 
-                className='form-control border-0 border-bottom'
+                className='form-control border-0 border-bottom bg-transparent text-white'
                 type='password'
                 id='passConfirm'
                 placeholder='Repite contraseña'
