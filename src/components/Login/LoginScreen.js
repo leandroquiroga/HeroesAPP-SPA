@@ -29,16 +29,16 @@ export const LoginScreen = () => {
     loginUser(logIn, dispatch, navigate, setError, state, currentUser);
   }
   return (
-    <div className='container mt-3 '>
+    <div className='container-background'>
       <div className='d-flex justify-content-center align-items-center p-2'>
         <div
-          className='shadow-lg p-3 mb-5 bg-body rounded '
+          className='shadow-lg p-3 mb-5 container-blur rounded text-white'
           style={{ width: 370 + 'px'}}
         >
-          <h1 className='text-center fs-3'>Iniciar sesión</h1>
+          <h1 className='text-center fs-4 text-white'>Iniciar sesión</h1>
           <hr />
           <form
-            className='form-control  border-0'
+            className='form-control border-0 bg-transparent text-white'
             onSubmit={handleLogin}
           >
             <div className='mb-3'>
@@ -50,7 +50,7 @@ export const LoginScreen = () => {
               </label>
               <input 
                 autoFocus
-                className='form-control border-0 border-bottom'
+                className='form-control border-0 border-bottom bg-transparent text-white'
                 type='email'
                 id='emailUser'
                 placeholder='Ingrese e-mail'
@@ -68,7 +68,7 @@ export const LoginScreen = () => {
                 Contraseña: 
               </label>
               <input 
-                className='form-control border-0 border-bottom'
+                className='form-control border-0 border-bottom bg-transparent text-white'
                 type='password'
                 id='passUser'
                 placeholder='Ingrese contraseña'
@@ -89,7 +89,7 @@ export const LoginScreen = () => {
               Login
             </button>
           </form>
-          <p className='text-center'>
+          <p className='text-center fs-6 text-white'>
             ¿No tienes cuenta? Haz click en <br />
             <Link to='/register'> Registrarme </Link>
           </p>
