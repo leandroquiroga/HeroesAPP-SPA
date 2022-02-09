@@ -10,6 +10,7 @@ export const HeroCard = ({
   characters,
 }) => {
   const imageSRC = `/assets/img/${id}.jpg`
+  const infoImagePath = `/assets/svg/info.svg`
   return (
 
     <div className='col animate__animated animate__fadeIn'>
@@ -41,7 +42,7 @@ export const HeroCard = ({
             className='btn btn-dark w-100'
             type='button'
           >
-            Mas informacion
+            Mas informacion <img src={infoImagePath} alt='info' />
           </button>
         </Link>
       </div>
