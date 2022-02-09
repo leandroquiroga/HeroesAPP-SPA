@@ -37,6 +37,7 @@ export const SearchScreen = () => {
     setError(false);
     navigate(`?q=${searchHeroe}`)
   };
+  const searchImagePath = `/assets/svg/search.svg`
 
   return (
     <div className='container animate__animated animate__fadeIn'>
@@ -71,7 +72,7 @@ export const SearchScreen = () => {
               type="submit"
               className='btn btn-danger mt-2 w-100'
             >
-              Buscar
+              Buscar <img src={ searchImagePath } alt='search hero' />
             </button>
           </form>
         </div>
