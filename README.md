@@ -2,6 +2,12 @@
 
 Este proyecto se basa en una aplicacion que obtiene de una bases de datos fake, ciertos superhero y mediante la autenticacion nos permite elegir nuestros heroes favoritos. Si no tenemos un usuario vamos a poder registrarnos, tambien podemos buscar nuestros superheroes favoritos. Utilizamos el localStorage para almacenar los heroes que nos gusten. 
 
+
+
+https://user-images.githubusercontent.com/80013958/153632464-4a3e9766-390c-4cfc-a90d-6036e3d3c0e1.mp4
+
+
+
 # Construido con 🛠️
 * React.js
 * React Router DOM v6
