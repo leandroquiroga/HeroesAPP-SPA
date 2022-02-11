@@ -17,18 +17,7 @@ export const RegisterScreen = () => {
 
   const handleRegister = (e) => {
     e.preventDefault();
-
-    // Validacion de campos vacios y contraseñas iguales
-    if ([emailUser, password, passwordConfirm].includes('')) {
-      setError('Completa todos los campos');
-      setTimeout(() => setError(''), 2500);
-      return
-    } else if (password !== passwordConfirm) {
-      setError('Las contraseñas no coinciden');
-      setTimeout(() => setError(''), 2500);
-      return
-    }
-
+    
     // Registra un usuario, si los datos son correctos,
     // lo redirije a la pagina principal de la App
     registerUser(singUp, dispatch, navigate, setError, state)
