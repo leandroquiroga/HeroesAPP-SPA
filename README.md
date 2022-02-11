@@ -61,6 +61,7 @@ Esta aplicacion esta diseñada para que se pueda usar desde cualquier dispositiv
 Si bien un proyecto para poner en practica mis conocimientos, se podran encontrar ciertas fallas, tambien como aclare mas adelante se puede inicar un unico usuario por navegador ya que utilizo el localStorage para guardar los heroes favoritos, esto se puede crear con una base de datos y que cada usuario obtenga un arreglo con cada uno de los objetos con informacion de sus heroes favoritos
 
 # Deploy 👨‍💻
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22f9eaad-4e86-408f-92f7-2424e741e96e/deploy-status)](https://tusuperheroe.netlify.app/)
 # Contacto 📫
 - [Linkedin](https://www.linkedin.com/in/leanquiroga95/)
 - [Email](mailto:leandroquiroga9514@gmail.com)
