@@ -1,11 +1,13 @@
-import React, { useMemo } from 'react';
+import React, { useContext, useMemo } from 'react';
 import { useParams, useNavigate, Navigate } from 'react-router-dom';
 import { getHeroById } from './../../helpers/index';
 import { ToastContainer, toast } from 'react-toastify';
-
 import 'react-toastify/dist/ReactToastify.css';
+import { AuthContext } from '../../auth/authContext';
+
 export const Heroes = () => {
-  // const [msgAdd , setMsgAdd] = useState(false)  
+
+  const { dispatchHero } = useContext(AuthContext);
   const { heroID } = useParams();
   const navigate = useNavigate();
   const hero = useMemo(() => getHeroById(heroID), [heroID] ) 
@@ -34,6 +36,13 @@ export const Heroes = () => {
   }
   
 
+  const handleAddHero = () => {
+    dispatchHero({
+      type: 'addHero',
+      payload: hero
+    });
+    notify();
+  }
   const imagePath = `/assets/img/${id}.jpg`
   const startImagePath = `/assets/svg/start.svg`
   const backImagePath = `/assets/svg/back.svg`
@@ -78,7 +87,7 @@ export const Heroes = () => {
               <div className='d-flex flex-column flex-md-row align-items-center'>
                 <button
                   className='btn btn-danger m-2'
-                  onClick={notify}>
+                onClick={handleAddHero}>
                   Añadir a <img src={startImagePath} alt='favorite' />
               </button>
               <ToastContainer />
