@@ -6,27 +6,20 @@ import { useForm } from '../../hooks/useForm';
 import { loginUser } from '../../helpers';
 
 export const LoginScreen = () => {
-  const [state, handleChangeInput] = useForm({
-    emailUser: '',
+  const [{email, password}, handleChangeInput] = useForm({
+    email: '',
     password: ''
   });
-  const { emailUser, password } = state;
-  const { dispatch, currentUser, logIn } = useContext(AuthContext);
+
+  const { dispatch, logIn } = useContext(AuthContext);
   const [error, setError] = useState('')
   const navigate = useNavigate();
 
   //inida a que pagina se debe regresar
   const handleLogin = (e) => {
     e.preventDefault();
-    
-    // Valida que los campos no esten vacios
-    if ([emailUser, password].includes('')) {
-      setError('Completa todos los campos');
-      setTimeout(() => setError(''), 2500); 
-      return;
-    };
     // Autenticacion y busca en el localStorage el ultimo path. 
-    loginUser(logIn, dispatch, navigate, setError, state, currentUser);
+    loginUser(logIn, dispatch, navigate, setError, email, password);
   }
   return (
     <div className='container-background'>
@@ -51,11 +44,11 @@ export const LoginScreen = () => {
               <input 
                 autoFocus
                 className='form-control border-0 border-bottom bg-transparent text-white'
-                type='email'
                 id='emailUser'
                 placeholder='Ingrese e-mail'
-                name='emailUser'
-                value={emailUser}
+                type='email'
+                name='email'
+                value={email}
                 onChange={handleChangeInput}
               />
             </div>
