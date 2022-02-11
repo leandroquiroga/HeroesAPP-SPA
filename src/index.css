@@ -51,3 +51,12 @@ nav .navbar-collapse.collapse{
     transition: .5 all ease-in-out;
   }
 }
+
+.main-container--button{
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.main-container--button-close{
+  width: 55px;
+}
