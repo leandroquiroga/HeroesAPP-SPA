@@ -51,6 +51,15 @@ Gracias a una bibioteca de react [React Toastify](https://fkhadra.github.io/reac
 ## Resposive
 Esta aplicacion esta diseñada para que se pueda usar desde cualquier dispositivo. 
 
+# Testing 🧪
+Se ha creado la seccion de testing con la intencion de testar el comportamiento de la aplicacion, como por ejemplo:
+
+* Componentes (Login, Search, etc)
+* Routas (Privadas y Publicas)
+* Auth
+
+Para realizar los test he utilizado [React Testing Library](https://testing-library.com/) y [Enzyme.js](https://enzymejs.github.io/enzyme/) con algunas configuraciones para los snapshot [enzyne-to-json](https://github.com/adriantoine/enzyme-to-json);
+
 # ACLARACION IMPORTANTE ⛔️
 Si bien un proyecto para poner en practica mis conocimientos, se podran encontrar ciertas fallas, tambien como aclare mas adelante se puede inicar un unico usuario por navegador ya que utilizo el localStorage para guardar los heroes favoritos, esto se puede crear con una base de datos y que cada usuario obtenga un arreglo con cada uno de los objetos con informacion de sus heroes favoritos
 
