@@ -2,6 +2,12 @@
 
 Este proyecto se basa en una aplicacion que obtiene de una bases de datos fake, ciertos superhero y mediante la autenticacion nos permite elegir nuestros heroes favoritos. Si no tenemos un usuario vamos a poder registrarnos, tambien podemos buscar nuestros superheroes favoritos. Utilizamos el localStorage para almacenar los heroes que nos gusten. 
 
+
+
+https://user-images.githubusercontent.com/80013958/153632464-4a3e9766-390c-4cfc-a90d-6036e3d3c0e1.mp4
+
+
+
 # Construido con 🛠️
 * React.js
 * React Router DOM v6
@@ -64,6 +70,7 @@ Para realizar los test he utilizado [React Testing Library](https://testing-libr
 Si bien un proyecto para poner en practica mis conocimientos, se podran encontrar ciertas fallas, tambien como aclare mas adelante se puede inicar un unico usuario por navegador ya que utilizo el localStorage para guardar los heroes favoritos, esto se puede crear con una base de datos y que cada usuario obtenga un arreglo con cada uno de los objetos con informacion de sus heroes favoritos
 
 # Deploy 👨‍💻
+[![Netlify Status](https://api.netlify.com/api/v1/badges/22f9eaad-4e86-408f-92f7-2424e741e96e/deploy-status)](https://tusuperheroe.netlify.app/)
 # Contacto 📫
 - [Linkedin](https://www.linkedin.com/in/leanquiroga95/)
 - [Email](mailto:leandroquiroga9514@gmail.com)
