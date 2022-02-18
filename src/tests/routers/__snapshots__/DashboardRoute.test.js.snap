@@ -1,0 +1,1999 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in <DashboardRoute/> This test must showing the component <Main /> corretly 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark px-2"
+  >
+    <section
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo navbar"
+          className="img-fluid navbar-icon"
+          src="/assets/svg/avatar.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <article
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav text-center "
+        >
+          <a
+            className="nav-item nav-link text-white"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+        <div
+          className="navbar-nav ms-auto"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <span
+              className="nav-item nav-link text-white text-center"
+            >
+              Hola, 
+              Leandro
+              <small
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              >
+                 👋 
+              </small>
+            </span>
+            <button
+              className="nav-item btn btn-danger"
+              onClick={[Function]}
+            >
+              Cerrar sesión 
+              <img
+                alt="logout"
+                src="/assets/svg/logout.svg"
+              />
+            </button>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </nav>,
+  <main
+    className="container p-4"
+  >
+    <div>
+      <h1
+        className="text-center"
+      >
+         Superheroes favoritos 
+      </h1>
+      <hr />
+      <div
+        className="container-card"
+      >
+        <div
+          className="col animate__animated animate__fadeIn px-2"
+        >
+          <li
+            className="card"
+          >
+            <div
+              className="d-flex justify-content-end align-items-center"
+            >
+              <button
+                className="main-container--button"
+              >
+                <img
+                  alt="delete"
+                  className="main-container--button-close"
+                  onClick={[Function]}
+                  src="/assets/svg/close.svg"
+                />
+              </button>
+              <div
+                className="Toastify"
+              />
+            </div>
+            <img
+              alt="Batman"
+              className="card-img-top img-thumbnail"
+              src="/assets/img/dc-batman.jpg"
+            />
+            <div
+              className="card-body d-flex flex-column justify-content-center align-items-center"
+            >
+              <h5
+                className="card-title"
+              >
+                 
+                Batman
+                 
+              </h5>
+              <p
+                className="card-text"
+              >
+                 
+                DC Comics
+                 
+              </p>
+              <div
+                className="d-flex flex-row "
+              >
+                <p
+                  className="card-text p-2"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                     
+                    Bruce Wayne
+                     
+                  </small>
+                </p>
+              </div>
+              <p
+                className="card-text p-2"
+              >
+                 
+                Detective Comics #27
+                 
+              </p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </main>,
+]
+`;
+
+exports[`Testing in <DashboardRoute/> This test must showing the component <Main /> if hero.length === 0 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark px-2"
+  >
+    <section
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo navbar"
+          className="img-fluid navbar-icon"
+          src="/assets/svg/avatar.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <article
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav text-center "
+        >
+          <a
+            className="nav-item nav-link text-white"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+        <div
+          className="navbar-nav ms-auto"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <span
+              className="nav-item nav-link text-white text-center"
+            >
+              Hola, 
+              Leandro
+              <small
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              >
+                 👋 
+              </small>
+            </span>
+            <button
+              className="nav-item btn btn-danger"
+              onClick={[Function]}
+            >
+              Cerrar sesión 
+              <img
+                alt="logout"
+                src="/assets/svg/logout.svg"
+              />
+            </button>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </nav>,
+  <main
+    className="container p-4"
+  >
+    <div
+      className="d-flex justify-content-between align-items-center w-100 p-5 flex-column flex-lg-row "
+    >
+      <img
+        alt="have not element"
+        className="img-fluid"
+        src="/assets/img/not-super-hero.png"
+      />
+      <p
+        className="text-center fs-3 mt-5 mt-lg-0"
+      >
+        No hay superheroes en la lista de favoritos...
+      </p>
+    </div>
+  </main>,
+]
+`;
+
+exports[`Testing in <DashboardRoute/> This test must showing the component <MarvelScreen /> correctly 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark px-2"
+  >
+    <section
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo navbar"
+          className="img-fluid navbar-icon"
+          src="/assets/svg/avatar.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <article
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav text-center "
+        >
+          <a
+            aria-current="page"
+            className="nav-item nav-link text-whiteactive"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+        <div
+          className="navbar-nav ms-auto"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <span
+              className="nav-item nav-link text-white text-center"
+            >
+              Hola, 
+              Leandro
+              <small
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              >
+                 👋 
+              </small>
+            </span>
+            <button
+              className="nav-item btn btn-danger"
+              onClick={[Function]}
+            >
+              Cerrar sesión 
+              <img
+                alt="logout"
+                src="/assets/svg/logout.svg"
+              />
+            </button>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </nav>,
+  <div
+    className="container"
+  >
+    <h1
+      className="text-center"
+    >
+      Marvel Screen
+    </h1>
+    <hr />
+    <div
+      className=" animate__animated animate__fadeIn  container-card"
+    >
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Spider Man"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-spider.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Spider Man
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Peter Parker
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Amazing Fantasy #15
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-spider"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Captain America"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-captain.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Captain America
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Steve Rogers
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Captain America Comics #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-captain"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Iron Man"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-iron.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Iron Man
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Tony Stark
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Tales of Suspense #39
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-iron"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Thor"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-thor.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Thor
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Thor Odinson
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Journey into Myster #83
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-thor"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Hulk"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-hulk.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Hulk
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Bruce Banner
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              The Incredible Hulk #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-hulk"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Wolverine"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-wolverine.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Wolverine
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                James Howlett
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              The Incredible Hulk #180
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-wolverine"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Daredevil"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-daredevil.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Daredevil
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Matthew Michael Murdock
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Daredevil #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-daredevil"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Hawkeye"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-hawkeye.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Hawkeye
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Clinton Francis Barton
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Tales of Suspense #57
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-hawkeye"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Cyclops"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-cyclops.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Cyclops
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Scott Summers
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              X-Men #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-cyclops"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Silver Surfer"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/marvel-silver.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Silver Surfer
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              Marvel Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Norrin Radd
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              The Fantastic Four #48
+               
+            </p>
+          </div>
+          <a
+            href="/hero/marvel-silver"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Testing in <DashboardRoute/> This test must showing the components <DCScreen /> correctly 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark px-2"
+  >
+    <section
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo navbar"
+          className="img-fluid navbar-icon"
+          src="/assets/svg/avatar.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <article
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav text-center "
+        >
+          <a
+            className="nav-item nav-link text-white"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            aria-current="page"
+            className="nav-item nav-link text-whiteactive"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+        <div
+          className="navbar-nav ms-auto"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <span
+              className="nav-item nav-link text-white text-center"
+            >
+              Hola, 
+              Pepito
+              <small
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              >
+                 👋 
+              </small>
+            </span>
+            <button
+              className="nav-item btn btn-danger"
+              onClick={[Function]}
+            >
+              Cerrar sesión 
+              <img
+                alt="logout"
+                src="/assets/svg/logout.svg"
+              />
+            </button>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </nav>,
+  <div
+    className="container"
+  >
+    <h1
+      className="text-center"
+    >
+      DC Screen
+    </h1>
+    <hr />
+    <div
+      className=" animate__animated animate__fadeIn  container-card"
+    >
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Batman"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-batman.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Batman
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Bruce Wayne
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Detective Comics #27
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-batman"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Superman"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-superman.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Superman
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Kal-El
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Action Comics #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-superman"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Flash"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-flash.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Flash
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Jay Garrick
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Jay Garrick, Barry Allen, Wally West, Bart Allen
+                   
+                </small>
+              </p>
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Flash Comics #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-flash"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Green Lantern"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-green.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Green Lantern
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Alan Scott
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+                   
+                </small>
+              </p>
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              All-American Comics #16
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-green"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Green Arrow"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-arrow.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Green Arrow
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Oliver Queen
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              More Fun Comics #73
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-arrow"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Wonder Woman"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-wonder.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Wonder Woman
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Princess Diana
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              All Star Comics #8
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-wonder"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Martian Manhunter"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-martian.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Martian Manhunter
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                J'onn J'onzz
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Martian Manhunter
+                   
+                </small>
+              </p>
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Detective Comics #225
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-martian"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Robin/Nightwing"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-robin.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Robin/Nightwing
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Dick Grayson
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Detective Comics #38
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-robin"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Blue Beetle"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-blue.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Blue Beetle
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Dan Garret
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Dan Garret, Ted Kord, Jaime Reyes
+                   
+                </small>
+              </p>
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Mystery Men Comics #1
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-blue"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Black Canary"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-black.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Black Canary
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Dinah Drake
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Dinah Drake, Dinah Lance
+                   
+                </small>
+              </p>
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Flash Comics #86
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-black"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

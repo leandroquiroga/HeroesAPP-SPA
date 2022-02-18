@@ -1,0 +1,297 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on <PrivateRouter /> This test should show the component <DashboardRoute /> with at least one hero 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark px-2"
+  >
+    <section
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo navbar"
+          className="img-fluid navbar-icon"
+          src="/assets/svg/avatar.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <article
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav text-center "
+        >
+          <a
+            className="nav-item nav-link text-white"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+        <div
+          className="navbar-nav ms-auto"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <span
+              className="nav-item nav-link text-white text-center"
+            >
+              Hola, 
+              Leandro
+              <small
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              >
+                 👋 
+              </small>
+            </span>
+            <button
+              className="nav-item btn btn-danger"
+              onClick={[Function]}
+            >
+              Cerrar sesión 
+              <img
+                alt="logout"
+                src="/assets/svg/logout.svg"
+              />
+            </button>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </nav>,
+  <main
+    className="container p-4"
+  >
+    <div>
+      <h1
+        className="text-center"
+      >
+         Superheroes favoritos 
+      </h1>
+      <hr />
+      <div
+        className="container-card"
+      >
+        <div
+          className="col animate__animated animate__fadeIn px-2"
+        >
+          <li
+            className="card"
+          >
+            <div
+              className="d-flex justify-content-end align-items-center"
+            >
+              <button
+                className="main-container--button"
+              >
+                <img
+                  alt="delete"
+                  className="main-container--button-close"
+                  onClick={[Function]}
+                  src="/assets/svg/close.svg"
+                />
+              </button>
+              <div
+                className="Toastify"
+              />
+            </div>
+            <img
+              alt="Batman"
+              className="card-img-top img-thumbnail"
+              src="/assets/img/dc-batman.jpg"
+            />
+            <div
+              className="card-body d-flex flex-column justify-content-center align-items-center"
+            >
+              <h5
+                className="card-title"
+              >
+                 
+                Batman
+                 
+              </h5>
+              <p
+                className="card-text"
+              >
+                 
+                DC Comics
+                 
+              </p>
+              <div
+                className="d-flex flex-row "
+              >
+                <p
+                  className="card-text p-2"
+                >
+                  <small
+                    className="text-muted"
+                  >
+                     
+                    Bruce Wayne
+                     
+                  </small>
+                </p>
+              </div>
+              <p
+                className="card-text p-2"
+              >
+                 
+                Detective Comics #27
+                 
+              </p>
+            </div>
+          </li>
+        </div>
+      </div>
+    </div>
+  </main>,
+]
+`;
+
+exports[`Testing on <PrivateRouter /> This test should show the component <DashboardRoute /> without any hero 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-lg navbar-dark bg-dark px-2"
+  >
+    <section
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+        onClick={[Function]}
+      >
+        <img
+          alt="logo navbar"
+          className="img-fluid navbar-icon"
+          src="/assets/svg/avatar.svg"
+        />
+      </a>
+      <button
+        className="navbar-toggler"
+        onClick={[Function]}
+        type="button"
+      >
+        <span
+          className="navbar-toggler-icon"
+        />
+      </button>
+      <article
+        className="collapse navbar-collapse"
+        id="navbarSupportedContent"
+      >
+        <div
+          className="navbar-nav text-center "
+        >
+          <a
+            className="nav-item nav-link text-white"
+            href="/marvel"
+            onClick={[Function]}
+          >
+            Marvel
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/dc"
+            onClick={[Function]}
+          >
+            DC
+          </a>
+          <a
+            className="nav-item nav-link text-white"
+            href="/search"
+            onClick={[Function]}
+          >
+            Search
+          </a>
+        </div>
+        <div
+          className="navbar-nav ms-auto"
+        >
+          <ul
+            className="navbar-nav"
+          >
+            <span
+              className="nav-item nav-link text-white text-center"
+            >
+              Hola, 
+              Leandro
+              <small
+                style={
+                  Object {
+                    "fontSize": "20px",
+                  }
+                }
+              >
+                 👋 
+              </small>
+            </span>
+            <button
+              className="nav-item btn btn-danger"
+              onClick={[Function]}
+            >
+              Cerrar sesión 
+              <img
+                alt="logout"
+                src="/assets/svg/logout.svg"
+              />
+            </button>
+          </ul>
+        </div>
+      </article>
+    </section>
+  </nav>,
+  <main
+    className="container p-4"
+  >
+    <div
+      className="d-flex justify-content-between align-items-center w-100 p-5 flex-column flex-lg-row "
+    >
+      <img
+        alt="have not element"
+        className="img-fluid"
+        src="/assets/img/not-super-hero.png"
+      />
+      <p
+        className="text-center fs-3 mt-5 mt-lg-0"
+      >
+        No hay superheroes en la lista de favoritos...
+      </p>
+    </div>
+  </main>,
+]
+`;
