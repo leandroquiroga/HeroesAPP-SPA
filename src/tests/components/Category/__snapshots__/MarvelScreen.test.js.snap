@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on Component <MarvelScree /> This test must return a snapshot corretly 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="text-center"
+  >
+    Marvel Screen
+  </h1>
+  <hr />
+  <HeroList
+    publisher="Marvel Comics"
+  />
+</div>
+`;

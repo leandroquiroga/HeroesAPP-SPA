@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing the component <LoginScreen/> This test must navigate to the <Register /> component by clicking 1`] = `
+<div
+  className="container-background"
+>
+  <div
+    className="d-flex justify-content-center align-items-center p-3 text-white"
+  >
+    <div
+      className="shadow-lg p-3 mb-5 container-blur rounded "
+      style={
+        Object {
+          "width": "370px",
+        }
+      }
+    >
+      <h1
+        className="text-center fs-3"
+      >
+        Registrate
+      </h1>
+      <hr />
+      <form
+        className="form-control border-0 bg-transparent text-white"
+        onSubmit={[Function]}
+      >
+        <div
+          className="mb-2 "
+        >
+          <label
+            className="form-label"
+            htmlFor="emailUser"
+          >
+            Email :
+          </label>
+          <input
+            autoFocus={true}
+            className="form-control border-0 border-bottom bg-transparent text-white"
+            id="emailUser"
+            name="emailUser"
+            onChange={[Function]}
+            placeholder="Ingrese e-mail"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-2 "
+        >
+          <label
+            className="form-label"
+            htmlFor="passUser"
+          >
+            Contraseña:
+          </label>
+          <input
+            className="form-control border-0 border-bottom bg-transparent text-white"
+            id="passUser"
+            name="password"
+            onChange={[Function]}
+            placeholder="Ingrese contraseña"
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-2 "
+        >
+          <label
+            className="form-label"
+            htmlFor="passConfirm"
+          >
+            Repite contraseña:
+          </label>
+          <input
+            className="form-control border-0 border-bottom bg-transparent text-white"
+            id="passConfirm"
+            name="passwordConfirm"
+            onChange={[Function]}
+            placeholder="Repite contraseña"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="btn btn-dark w-100 mt-4"
+        >
+          Registrate
+        </button>
+      </form>
+      <p
+        className="text-center"
+      >
+        ¿Ya eres usuario? Haz click en 
+        <br />
+        <a
+          href="/login"
+          onClick={[Function]}
+        >
+           Iniciar Sesión 
+        </a>
+      </p>
+      <p
+        className="fs-6 mt-3 text-center"
+      >
+        Todos los derechos reservados 
+        <br />
+        ©Hero App
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing the component <LoginScreen/> This test must showing correctly 1`] = `
+<div
+  className="container-background"
+>
+  <div
+    className="d-flex justify-content-center align-items-center p-2"
+  >
+    <div
+      className="shadow-lg p-3 mb-5 container-blur rounded text-white"
+      style={
+        Object {
+          "width": "370px",
+        }
+      }
+    >
+      <h1
+        className="text-center fs-4 text-white"
+      >
+        Iniciar sesión
+      </h1>
+      <hr />
+      <form
+        className="form-control border-0 bg-transparent text-white"
+        onSubmit={[Function]}
+      >
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="emailUser"
+          >
+            Email :
+          </label>
+          <input
+            autoFocus={true}
+            className="form-control border-0 border-bottom bg-transparent text-white"
+            id="emailUser"
+            name="email"
+            onChange={[Function]}
+            placeholder="Ingrese e-mail"
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="mb-3"
+        >
+          <label
+            className="form-label"
+            htmlFor="passUser"
+          >
+            Contraseña:
+          </label>
+          <input
+            className="form-control border-0 border-bottom bg-transparent text-white"
+            id="passUser"
+            name="password"
+            onChange={[Function]}
+            placeholder="Ingrese contraseña"
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          className="btn btn-dark w-100 mt-4"
+          type="submit"
+        >
+          Login
+        </button>
+      </form>
+      <p
+        className="text-center fs-6 text-white"
+      >
+        ¿No tienes cuenta? Haz click en 
+        <br />
+        <a
+          href="/register"
+          onClick={[Function]}
+        >
+           Registrarme 
+        </a>
+      </p>
+      <p
+        className="fs-6 mt-3 text-center"
+      >
+        Todos los derechos reservados 
+        <br />
+        ©Hero App
+      </p>
+    </div>
+  </div>
+</div>
+`;

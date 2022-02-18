@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on compontent <SearchScreen /> This test must showing an error not finding an hero 1`] = `
+<div
+  className="container animate__animated animate__fadeIn"
+>
+  <h1>
+    Busquedas 
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-5 col-12"
+    >
+      <h4>
+        Buscar 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          autoFocus={true}
+          className="form-control"
+          name="searchHeroe"
+          onChange={[Function]}
+          placeholder="Ingrese un heore"
+          type="text"
+          value="batman132"
+        />
+        <button
+          className="btn btn-danger mt-2 w-100"
+          type="submit"
+        >
+          Buscar 
+          <img
+            alt="search hero"
+            src="/assets/svg/search.svg"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-lg-7 col-12 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger w-100"
+      >
+         No hay resultados: 
+        batman132
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing on compontent <SearchScreen /> This test must showing an hero and the input with queryString value 1`] = `
+<div
+  className="container animate__animated animate__fadeIn"
+>
+  <h1>
+    Busquedas 
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-5 col-12"
+    >
+      <h4>
+        Buscar 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          autoFocus={true}
+          className="form-control"
+          name="searchHeroe"
+          onChange={[Function]}
+          placeholder="Ingrese un heore"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn btn-danger mt-2 w-100"
+          type="submit"
+        >
+          Buscar 
+          <img
+            alt="search hero"
+            src="/assets/svg/search.svg"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-lg-7 col-12 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="col animate__animated animate__fadeIn"
+      >
+        <div
+          className="card p-3"
+          style={
+            Object {
+              "width": "18rem",
+            }
+          }
+        >
+          <img
+            alt="Batman"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-batman.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Batman
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                 
+                Bruce Wayne
+                 
+              </p>
+              <p
+                className="card-text p-2"
+              />
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Detective Comics #27
+               
+            </p>
+          </div>
+          <a
+            href="/hero/dc-batman"
+            onClick={[Function]}
+          >
+            <button
+              className="btn btn-dark w-100"
+              type="button"
+            >
+              Mas informacion 
+              <img
+                alt="info"
+                src="/assets/svg/info.svg"
+              />
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Testing on compontent <SearchScreen /> This test must showing corretly with default values 1`] = `
+<div
+  className="container animate__animated animate__fadeIn"
+>
+  <h1>
+    Busquedas 
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-lg-5 col-12"
+    >
+      <h4>
+        Buscar 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          autoFocus={true}
+          className="form-control"
+          name="searchHeroe"
+          onChange={[Function]}
+          placeholder="Ingrese un heore"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn btn-danger mt-2 w-100"
+          type="submit"
+        >
+          Buscar 
+          <img
+            alt="search hero"
+            src="/assets/svg/search.svg"
+          />
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-lg-7 col-12 d-flex flex-column justify-content-center align-items-center"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger w-100"
+      >
+         No hay resultados: 
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;

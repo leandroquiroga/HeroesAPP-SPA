@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on <Heroes /> This test must should display the component corretcly 1`] = `
+<div
+  className="container animate__animated animate__fadeIn "
+>
+  <div
+    className="d-flex flex-column mt-3 flex-md-row "
+  >
+    <div
+      className="col-12 col-md-4 "
+    >
+      <img
+        alt="Batman"
+        className="img-fluid w-100"
+        src="/assets/img/dc-batman.jpg"
+      />
+    </div>
+    <div
+      className="col-12 col-md-8 p-5"
+    >
+      <h3>
+        Batman
+      </h3>
+      <ul
+        className="list-group list-group-flush"
+      >
+        <li
+          className="list-group-item"
+        >
+          <b>
+            Alter ego: 
+          </b>
+          Bruce Wayne
+        </li>
+        <li
+          className="list-group-item"
+        >
+          <b>
+            Publisher: 
+          </b>
+          DC Comics
+        </li>
+        <li
+          className="list-group-item"
+        >
+          <b>
+            First Appearance: 
+          </b>
+          Detective Comics #27
+        </li>
+      </ul>
+      <h5
+        className="mt-3 mx-3"
+      >
+         Characters 
+      </h5>
+      <p
+        className="mx-3"
+      >
+         
+        Bruce Wayne
+         
+      </p>
+      <div
+        className="d-flex flex-row "
+      >
+        <button
+          className="btn btn-danger m-2"
+          onClick={[Function]}
+        >
+          Regresar 
+          <img
+            alt="favorite"
+            src="/assets/svg/back.svg"
+          />
+        </button>
+        <div
+          className="d-flex flex-column flex-md-row align-items-center"
+        >
+          <button
+            className="btn btn-danger m-2"
+            onClick={[Function]}
+          >
+            Añadir a 
+            <img
+              alt="favorite"
+              src="/assets/svg/start.svg"
+            />
+          </button>
+          <div
+            className="Toastify"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

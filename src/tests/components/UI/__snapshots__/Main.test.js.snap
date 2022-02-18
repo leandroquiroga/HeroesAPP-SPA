@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing on component <HeroFavourites /> This test must showing the comoponente <HeroFavourites /> with their props respectively 1`] = `
+<div
+  className="col animate__animated animate__fadeIn px-2"
+>
+  <li
+    className="card"
+  >
+    <div
+      className="d-flex justify-content-end align-items-center"
+    >
+      <button
+        className="main-container--button"
+      >
+        <img
+          alt="delete"
+          className="main-container--button-close"
+          onClick={[Function]}
+          src="/assets/svg/close.svg"
+        />
+      </button>
+      <ToastContainer
+        autoClose={5000}
+        closeButton={[Function]}
+        closeOnClick={true}
+        draggable={true}
+        draggableDirection="x"
+        draggablePercent={80}
+        hideProgressBar={false}
+        newestOnTop={false}
+        pauseOnFocusLoss={true}
+        pauseOnHover={true}
+        position="top-right"
+        role="alert"
+        rtl={false}
+        theme="light"
+        transition={[Function]}
+      />
+    </div>
+    <img
+      className="card-img-top img-thumbnail"
+      src="/assets/img/undefined.jpg"
+    />
+    <div
+      className="card-body d-flex flex-column justify-content-center align-items-center"
+    >
+      <h5
+        className="card-title"
+      >
+         
+         
+      </h5>
+      <p
+        className="card-text"
+      >
+         
+         
+      </p>
+      <div
+        className="d-flex flex-row "
+      >
+        <p
+          className="card-text p-2"
+        >
+          <small
+            className="text-muted"
+          >
+             
+             
+          </small>
+        </p>
+      </div>
+      <p
+        className="card-text p-2"
+      >
+         
+         
+      </p>
+    </div>
+  </li>
+</div>
+`;
+
+exports[`Testing on component <Main /> This test must showing the component <Main /> correctly 1`] = `
+<main
+  className="container p-4"
+>
+  <div>
+    <h1
+      className="text-center"
+    >
+       Superheroes favoritos 
+    </h1>
+    <hr />
+    <div
+      className="container-card"
+    >
+      <div
+        className="col animate__animated animate__fadeIn px-2"
+      >
+        <li
+          className="card"
+        >
+          <div
+            className="d-flex justify-content-end align-items-center"
+          >
+            <button
+              className="main-container--button"
+            >
+              <img
+                alt="delete"
+                className="main-container--button-close"
+                onClick={[Function]}
+                src="/assets/svg/close.svg"
+              />
+            </button>
+            <div
+              className="Toastify"
+            />
+          </div>
+          <img
+            alt="Batman"
+            className="card-img-top img-thumbnail"
+            src="/assets/img/dc-batman.jpg"
+          />
+          <div
+            className="card-body d-flex flex-column justify-content-center align-items-center"
+          >
+            <h5
+              className="card-title"
+            >
+               
+              Batman
+               
+            </h5>
+            <p
+              className="card-text"
+            >
+               
+              DC Comics
+               
+            </p>
+            <div
+              className="d-flex flex-row "
+            >
+              <p
+                className="card-text p-2"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Bruce Wayne
+                   
+                </small>
+              </p>
+            </div>
+            <p
+              className="card-text p-2"
+            >
+               
+              Detective Comics #27
+               
+            </p>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+</main>
+`;
+
+exports[`Testing on component <Main /> This test must showing the componente <Main /> if hero.length === 0 1`] = `
+<main
+  className="container p-4"
+>
+  <div
+    className="d-flex justify-content-between align-items-center w-100 p-5 flex-column flex-lg-row "
+  >
+    <img
+      alt="have not element"
+      className="img-fluid"
+      src="/assets/img/not-super-hero.png"
+    />
+    <p
+      className="text-center fs-3 mt-5 mt-lg-0"
+    >
+      No hay superheroes en la lista de favoritos...
+    </p>
+  </div>
+</main>
+`;
